@@ -16,3 +16,5 @@ cd RLIM
 python train.py --dataset mlr_cuhk --iters 400 --cuda 0,1 --batch-size 32 --cr
 ```
 "--cr" represents using cluster refinement.
+
+You can make modifications according to the specific device, with the command --cuda.
