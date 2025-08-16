@@ -8,9 +8,6 @@ PyTorch >= 1.1
 ## Installation
 ```python
 git clone https://github.com/zqpang/RLIM
-```
-
-```python
 cd RLIM
 ```
 
