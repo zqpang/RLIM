@@ -517,7 +517,7 @@ def main_worker(args):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="RLIM")
     # data
-    parser.add_argument('-d', '--dataset', type=str, default='ltcc',
+    parser.add_argument('-d', '--dataset', type=str, default='mlr_cuhk',
                         choices=datasets.names())
     parser.add_argument('-b', '--batch-size', type=int, default=64)
     parser.add_argument('-j', '--workers', type=int, default=0)
